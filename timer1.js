@@ -1,4 +1,4 @@
-const alarm = function (times) {
+const alarm = function(times) {
   times.forEach((time) => {
     // parse an integer from the string element in the times array
     if (parseInt(time) >= 0) {
